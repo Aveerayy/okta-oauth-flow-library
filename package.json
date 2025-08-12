@@ -1,0 +1,52 @@
+{
+  "name": "okta-oauth-flow-library",
+  "version": "1.0.0",
+  "description": "Reusable Okta OAuth flow library with session management and token refresh",
+  "main": "ai_flow_auth.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node okta-example-usage.ts",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.js",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.4",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0",
+    "next-auth": "^4.0.0",
+    "react": ">=18.0.0"
+  },
+  "keywords": [
+    "okta",
+    "oauth",
+    "authentication",
+    "session-management",
+    "pkce",
+    "token-refresh",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/okta-oauth-flow-library.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
